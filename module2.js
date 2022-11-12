@@ -48,6 +48,11 @@
     for (j = 0; j < rainbow.length; j++) {
       choosedColor = rainbow[Math.floor(7 * Math.random())];
     }
+    if (choosedColor == 'yellow') {// white text on yellow bg not readable
+      document.querySelector('.titleH1').style.color = '#000';
+    } else {
+      document.querySelector('.titleH1').style.color = '#fff';
+    }
     // custom event
     const event = new CustomEvent("sentence-choosed-color-changed", {
       detail: {
@@ -60,7 +65,7 @@
     // checking if condition is true
     if (
       choosedSentence ===
-        "Life is like a box of chocolates. You never know what you’re going to get. Forrest Gump" &&
+      "Life is like a box of chocolates. You never know what you’re going to get. Forrest Gump" &&
       choosedColor === "green"
     ) {
       condition = true;
