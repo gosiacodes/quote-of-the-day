@@ -1,4 +1,5 @@
-# Modul2-frikod
- Modul 2 - frikod / Avancerad JavaScript
+# Website "Have a good day" with quote of the day 
 
-https://margareta75.github.io/Modul2-frikod/
+Website "Have a good day" with quote of the day - school project at Advanced JavaScript course (2020)
+
+https://gosiacodes.github.io/quote-of-the-day/
